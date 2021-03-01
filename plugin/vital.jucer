@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="C9WuMW" name="Vial" projectType="audioplug" version="1.0.6"
-              bundleIdentifier="audio.vial.synth" includeBinaryInAppConfig="1"
+              bundleIdentifier="audio.vitalium.synth" includeBinaryInAppConfig="1"
               buildVST="1" buildVST3="1" buildAU="1" buildRTAS="0" buildAAX="0"
               pluginName="Vial" pluginDesc="" pluginManufacturer="Vial Audio"
               pluginManufacturerCode="Open" pluginCode="Vial" pluginChannelConfigs="{0, 2}"
               pluginIsSynth="1" pluginWantsMidiIn="1" pluginProducesMidiOut="0"
               pluginSilenceInIsSilenceOut="0" pluginEditorRequiresKeys="1"
-              pluginAUExportPrefix="vial" pluginRTASCategory="" aaxIdentifier="audio.vial.synth"
+              pluginAUExportPrefix="vitalium" pluginRTASCategory="" aaxIdentifier="audio.vitalium.synth"
               pluginAAXCategory="2048" companyName="Vial Audio" companyEmail="matthewtytel@gmail.com"
-              companyWebsite="vial.audio" pluginIsMidiEffectPlugin="0" buildAUv3="1"
+              companyWebsite="vitalium.audio" pluginIsMidiEffectPlugin="0" buildAUv3="1"
               displaySplashScreen="0" reportAppUsage="0" splashScreenColour="Dark"
               buildStandalone="1" enableIAA="1" cppLanguageStandard="14" companyCopyright="Matt Tytel"
               pluginFormats="buildVST,buildVST3,buildAU,buildAUv3,buildStandalone,enableIAA"
