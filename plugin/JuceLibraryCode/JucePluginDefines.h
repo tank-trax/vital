@@ -38,16 +38,16 @@
  #define JucePlugin_Enable_IAA             1
 #endif
 #ifndef  JucePlugin_Name
- #define JucePlugin_Name                   "Vial"
+ #define JucePlugin_Name                   "Vitalium"
 #endif
 #ifndef  JucePlugin_Desc
  #define JucePlugin_Desc                   ""
 #endif
 #ifndef  JucePlugin_Manufacturer
- #define JucePlugin_Manufacturer           "Vial Audio"
+ #define JucePlugin_Manufacturer           "Vitalium Audio"
 #endif
 #ifndef  JucePlugin_ManufacturerWebsite
- #define JucePlugin_ManufacturerWebsite    "vial.audio"
+ #define JucePlugin_ManufacturerWebsite    "vitalium.audio"
 #endif
 #ifndef  JucePlugin_ManufacturerEmail
  #define JucePlugin_ManufacturerEmail      "matthewtytel@gmail.com"
@@ -98,16 +98,16 @@
  #define JucePlugin_AUSubType              JucePlugin_PluginCode
 #endif
 #ifndef  JucePlugin_AUExportPrefix
- #define JucePlugin_AUExportPrefix         vial
+ #define JucePlugin_AUExportPrefix         vitalium
 #endif
 #ifndef  JucePlugin_AUExportPrefixQuoted
- #define JucePlugin_AUExportPrefixQuoted   "vial"
+ #define JucePlugin_AUExportPrefixQuoted   "vitalium"
 #endif
 #ifndef  JucePlugin_AUManufacturerCode
  #define JucePlugin_AUManufacturerCode     JucePlugin_ManufacturerCode
 #endif
 #ifndef  JucePlugin_CFBundleIdentifier
- #define JucePlugin_CFBundleIdentifier     audio.vial.synth
+ #define JucePlugin_CFBundleIdentifier     audio.vitalium.synth
 #endif
 #ifndef  JucePlugin_RTASCategory
  #define JucePlugin_RTASCategory           0
@@ -125,7 +125,7 @@
  #define JucePlugin_RTASDisableMultiMono   0
 #endif
 #ifndef  JucePlugin_AAXIdentifier
- #define JucePlugin_AAXIdentifier          audio.vial.synth
+ #define JucePlugin_AAXIdentifier          audio.vitalium.synth
 #endif
 #ifndef  JucePlugin_AAXManufacturerCode
  #define JucePlugin_AAXManufacturerCode    JucePlugin_ManufacturerCode
@@ -149,7 +149,7 @@
  #define JucePlugin_IAASubType             JucePlugin_PluginCode
 #endif
 #ifndef  JucePlugin_IAAName
- #define JucePlugin_IAAName                "Vial Audio: Vial"
+ #define JucePlugin_IAAName                "Vitalium Audio: Vitalium"
 #endif
 #ifndef  JucePlugin_VSTNumMidiInputs
  #define JucePlugin_VSTNumMidiInputs       16

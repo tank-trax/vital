@@ -36,7 +36,7 @@ AboutSection::AboutSection(const String& name) : Overlay(name), body_(Shaders::k
   logo_ = std::make_unique<AppLogo>("logo");
   addOpenGlComponent(logo_.get());
 
-  name_text_ = std::make_unique<PlainTextComponent>("plugin name", "VIAL");
+  name_text_ = std::make_unique<PlainTextComponent>("plugin name", "Vitalium");
   addOpenGlComponent(name_text_.get());
   name_text_->setFontType(PlainTextComponent::kRegular);
   name_text_->setTextSize(40.0f);
