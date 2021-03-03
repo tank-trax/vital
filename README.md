@@ -2,10 +2,12 @@ This build represents my personal modifications to the jucer file within the plu
 
 instructions
 
+```
 git clone https://github.com/tank-trax/vitalium.git
 git checkout vitalium-1.0.6
 cd plugin/builds/linux_vst/
 make CONFIG=Release
+```
 
 this will build the Standalone and VST3
 
