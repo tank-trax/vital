@@ -101,7 +101,6 @@ class AboutSection : public Overlay {
     std::unique_ptr<AppLogo> logo_;
     std::unique_ptr<PlainTextComponent> name_text_;
     std::unique_ptr<PlainTextComponent> version_text_;
-    std::unique_ptr<PlainTextComponent> fork_text_;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR(AboutSection)
 };
