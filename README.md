@@ -1,6 +1,6 @@
-This build represents my personal modifications to the jucer file within the plugin folder to successfully build Vitalium Standalone with JACK support and the VST3 plugin for Linux.
+This build represents my personal modifications to the jucer file and parts of the source to successfully build Vitalium Standalone with JACK support and the VST3 plugin for Linux. The VST2 portion has been removed and there has been no attempt at modifying the LV2. I did try to build the LV2 and got as far as it loaded in jalv.gtk3 but without any GUI. 
 
-The modifications have been tested and built successfully on Debian Buster, and should build on any distribution. 
+These modifications have been tested and built successfully on Debian Buster, and should build on any Linux distribution. 
 
 instructions
 
@@ -12,11 +12,11 @@ cd plugin/builds/linux_vst/
 make CONFIG=Release
 ```
 
-this will build the Standalone and VST3
-
 I have made every attempt to comply with Matt's wishes to remove all mention of "Vital", "Vital Audio", "Tytel" or "Matt Tytel" from the jucer and Makefile as well as take away any mention of or link to https://vital.audio, https://account.vital.audio or https://store.vital.audio
 
-The "Check for Updates" section has been removed from the About screen.
+Small tweaks include the "Check for Updates" section has been removed from the About screen and the "Download Content" button from the Pop-up window has aslo been removed.
+
+If any one would like to contribute to this build in a graphic design capacity (to change the allure or skin so that is is unique from Vital) I would welcome such changes with enthusiasm.
 
 ## What can you do with the source
 The source code is licensed under the GPLv3. If you download the source or create builds you must comply with that license.
