@@ -14,7 +14,7 @@ make CONFIG=Release
 
 I have made every attempt to comply with Matt's wishes to remove all mention of "Vital", "Vital Audio", "Tytel" or "Matt Tytel" from the jucer and Makefile as well as take away any mention of or link to https://vital.audio, https://account.vital.audio or https://store.vital.audio
 
-Small tweaks include the "Check for Updates" section has been removed from the About screen and the "Download Content" button from the Pop-up window has also been removed.
+Small tweaks include the "Check for Updates" section has been removed from the About screen and the "Download Content" button  has been removed from the Pop-up window.
 
 If any one would like to contribute to this build in a graphic design capacity (to change the allure or skin so that is is unique from Vital) I would welcome such changes with enthusiasm.
 
