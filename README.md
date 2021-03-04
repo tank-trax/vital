@@ -1,6 +1,6 @@
-This build represents my personal modifications to the jucer file within the plugin folder to successfully build Vitalium Standalone with JACK support and the VST3 plugin. A
+This build represents my personal modifications to the jucer file within the plugin folder to successfully build Vitalium Standalone with JACK support and the VST3 plugin for Linux.
 
-This has been tested and built successfully on Debian Buster, but it should build on any Linux distribution
+The modifications have been tested and built successfully on Debian Buster, and should build on any distribution. 
 
 instructions
 
