@@ -1,19 +1,21 @@
-# Vital
-Vital is a spectral warping wavetable synthesizer. This is the source.
+This build represents my personal modifications to the jucer file within the plugin folder to successfully build Vitalium Standalone with JACK support and the VST3 plugin. As a Linux user I can only attest that this will work on a Linux distro compatible with Debian Buster
 
-## Code Licensing
-If you are making a proprietary or closed source app and would like to use Vital's source code, contact licensing@vital.audio for non GPLv3 licensing options.
+instructions
 
-## Installing
-Create an account and download Vital at [vital.audio](https://vital.audio)
+```
+git clone https://github.com/tank-trax/vitalium.git
+git checkout vitalium-1.0.6
+cd plugin/builds/linux_vst/
+make CONFIG=Release
+```
 
-## Issues
-Report bugs (e.g.non-code and non-compiling issues) to https://forum.vital.audio
+this will build the Standalone and VST3
 
-Feel free to report issues on building/compiling here but note that I'm not prioritizing them.
+I have made every attempt to comply with Matt's wishes to remove all mention of "Vital", "Vital Audio", "Tytel" or "Matt Tytel" from the jucer and Makefile as well as take away any mention of or link to https://vital.audio, https://account.vital.audio or https://store.vital.audio
 
-## Pull requests
-I will not take any pull requests.
+That being said... I did not remove the part that has the "Check for Updates" as I have not found a viable solution as of yet. Please uncheck that if you build and use these apps. At any rate if my understanding is correct, the changes I made will search for a non-existent domain.
+
+I removed parts of the original text from mtytel/vital but will keep this section....
 
 ## What can you do with the source
 The source code is licensed under the GPLv3. If you download the source or create builds you must comply with that license.
