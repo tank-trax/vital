@@ -27,6 +27,8 @@ make
 
 This will produce the Standalone and VST3 in `vitalium/plugin/builds/linux_vst/build/` and the LV2 in `vitalium/plugin/builds/linux_lv2/` 
 
+Presets and local store will go in the `~/.local/share/vitalium/` location
+
 I have made every effort to comply with Matt's wishes to remove all mention of "Vital", "Vital Audio", "Tytel" or "Matt Tytel" from the jucer, Makefile and all source code as well as take away any mention of or link to https://vital.audio, https://account.vital.audio or https://store.vital.audio
 
 
