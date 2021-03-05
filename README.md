@@ -10,7 +10,7 @@ for Linux/GNU.
 The changes that are integrated into this build include crucial fixes that were implemented by 
 
 
- - falkTX (removing of all the Log In, Authorization,Downloading of Content and Text-to-Wavform features both in the GUI and in the back end) 
+ - falkTX (removing of all the Log In, Authorization, Downloading of Content and Text-to-Wavform features) 
  - taylordotfish (LV2 fixes to enable the GUI to display) 
 
 
