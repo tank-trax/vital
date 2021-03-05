@@ -1179,7 +1179,7 @@ void PopupBrowser::resized() {
     search_box_->setBounds(x + padding, y + padding, selection_list_width - 2 * padding, text_height);
     search_box_->resized();
   }
-  
+
   int store_x = x + padding + selection_list_width;
   store_button_->setBounds(store_x, y + padding, browser_bounds_.getRight() - store_x - top_height, text_height);
   exit_button_->setBounds(x + browser_bounds_.getWidth() - top_height, y, top_height, top_height);

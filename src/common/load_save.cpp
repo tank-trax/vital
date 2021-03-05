@@ -27,7 +27,7 @@
 #define STRINGIFY(x) QUOTE(x)
 
 namespace {
-  const std::string kLinuxUserDataDirectory = "~/.local/share/vital/";
+  const std::string kLinuxUserDataDirectory = "~/.local/share/vitalium/";
   const std::string kAvailablePacksFile = "available_packs.json";
   const std::string kInstalledPacksFile = "packs.json";
 
@@ -1129,7 +1129,7 @@ std::string LoadSave::getLicense(json data) {
 File LoadSave::getConfigFile() {
 #if defined(JUCE_DATA_STRUCTURES_H_INCLUDED)
   PropertiesFile::Options config_options;
-  config_options.applicationName = "Vial";
+  config_options.applicationName = "Vitalium";
   config_options.osxLibrarySubFolder = "Application Support";
   config_options.filenameSuffix = "config";
 
@@ -1165,7 +1165,7 @@ void LoadSave::writeErrorLog(String error_log) {
 File LoadSave::getFavoritesFile() {
 #if defined(JUCE_DATA_STRUCTURES_H_INCLUDED)
   PropertiesFile::Options config_options;
-  config_options.applicationName = "Vial";
+  config_options.applicationName = "Vitalium";
   config_options.osxLibrarySubFolder = "Application Support";
   config_options.filenameSuffix = "favorites";
 
@@ -1184,7 +1184,7 @@ File LoadSave::getFavoritesFile() {
 File LoadSave::getDefaultSkin() {
 #if defined(JUCE_DATA_STRUCTURES_H_INCLUDED)
   PropertiesFile::Options config_options;
-  config_options.applicationName = "Vial";
+  config_options.applicationName = "Vitalium";
   config_options.osxLibrarySubFolder = "Application Support";
   config_options.filenameSuffix = "skin";
 
@@ -1301,18 +1301,6 @@ void LoadSave::saveContentVersion(std::string version) {
   saveJsonToConfig(data);
 }
 
-void LoadSave::saveUpdateCheckConfig(bool check_for_updates) {
-  json data = getConfigJson();
-  data["check_for_updates"] = check_for_updates;
-  saveJsonToConfig(data);
-}
-
-void LoadSave::saveWorkOffline(bool work_offline) {
-  json data = getConfigJson();
-  data["work_offline"] = work_offline;
-  saveJsonToConfig(data);
-}
-
 void LoadSave::saveLoadedSkin(const std::string& name) {
   json data = getConfigJson();
   data["loaded_skin"] = name;
@@ -1328,12 +1316,6 @@ void LoadSave::saveAnimateWidgets(bool animate_widgets) {
 void LoadSave::saveDisplayHzFrequency(bool hz_frequency) {
   json data = getConfigJson();
   data["hz_frequency"] = hz_frequency;
-  saveJsonToConfig(data);
-}
-
-void LoadSave::saveAuthenticated(bool authenticated) {
-  json data = getConfigJson();
-  data["authenticated"] = authenticated;
   saveJsonToConfig(data);
 }
 
@@ -1567,24 +1549,6 @@ int LoadSave::getDaysToExpire() {
 #endif
 }
 
-bool LoadSave::shouldCheckForUpdates() {
-  json data = getConfigJson();
-
-  if (!data.count("check_for_updates"))
-    return true;
-
-  return data["check_for_updates"];
-}
-
-bool LoadSave::shouldWorkOffline() {
-  json data = getConfigJson();
-
-  if (!data.count("work_offline"))
-    return false;
-
-  return data["work_offline"];
-}
-
 std::string LoadSave::getLoadedSkin() {
   json data = getConfigJson();
 
@@ -1610,15 +1574,6 @@ bool LoadSave::displayHzFrequency() {
     return false;
 
   return data["hz_frequency"];
-}
-
-bool LoadSave::authenticated() {
-  json data = getConfigJson();
-
-  if (!data.count("authenticated"))
-    return false;
-
-  return data["authenticated"];
 }
 
 int LoadSave::getOversamplingAmount() {
@@ -1745,14 +1700,14 @@ File LoadSave::getDataDirectory() {
   String xdg_data_home = SystemStats::getEnvironmentVariable ("XDG_DATA_HOME", {});
 
   if (!xdg_data_home.trim().isEmpty())
-    directory = File(xdg_data_home).getChildFile("vial");
+    directory = File(xdg_data_home).getChildFile("Vitalium");
 
 #elif defined(__APPLE__)
   File home_directory = File::getSpecialLocation(File::userHomeDirectory);
-  File directory = home_directory.getChildFile("Music").getChildFile("Vial");
+  File directory = home_directory.getChildFile("Music").getChildFile("Vitalium");
 #else
   File documents_dir = File::getSpecialLocation(File::userDocumentsDirectory);
-  File directory = documents_dir.getChildFile("Vial");
+  File directory = documents_dir.getChildFile("Vitalium");
 #endif
 
   return directory;
