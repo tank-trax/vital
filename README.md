@@ -1,17 +1,17 @@
 This build represents an unofficial fork of the recently open sourced Waveform Synthesizer Vital, which includes modifications to the `jucer` and `make` files as well as other parts of the source to successfully build Vitalium as
 
 
- - a) a Standalone app with JACK support
- - b) a VST3 plugin
- - c) LV2 plugin 
+ - a Standalone app with JACK support
+ - a VST3 plugin
+ - LV2 plugin 
 
 for Linux/GNU. 
 
 The changes that are integrated into this build include crucial fixes that were implemented by 
 
 
- - a) falkTX (removing of all the Log In, Authorization,Downloading of Content and Text-to-Wavform features both in the GUI and in the back end) 
- - b) taylordotfish (LV2 fixes to enable the GUI to display) 
+ - falkTX (removing of all the Log In, Authorization,Downloading of Content and Text-to-Wavform features both in the GUI and in the back end) 
+ - taylordotfish (LV2 fixes to enable the GUI to display) 
 
 
 Successfully tested and built on Debian Buster. 
