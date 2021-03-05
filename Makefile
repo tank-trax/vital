@@ -27,9 +27,9 @@ else
 endif
 endif
 
-PROGRAM = vital
-LIB_PROGRAM = Vital
-LIB_PROGRAM_FX = VitalFX
+PROGRAM = vitalium
+LIB_PROGRAM = Vitalium
+LIB_PROGRAM_FX = VitaliumFX
 BIN = $(DESTDIR)/usr/bin
 BINFILE = $(BIN)/$(PROGRAM)
 LV2 = $(DESTDIR)/$(LIBDIR)/lv2/$(LIB_PROGRAM).lv2
@@ -68,7 +68,7 @@ ICONDEST64 = $(ICONS)/64x64/apps
 ICONDEST128 = $(ICONS)/128x128/apps
 ICONDEST256 = $(ICONS)/256x256/apps
 
-all: standalone vst vst3 lv2
+all: vst3 lv2
 
 install_icons:
 	install -d $(ICONDEST16) $(ICONDEST22) $(ICONDEST24) $(ICONDEST32)
@@ -97,7 +97,7 @@ vst:
 	$(MAKE) -C plugin/builds/linux_vst VST CONFIG=$(CONFIG) AR=gcc-ar SIMDFLAGS="$(SIMDFLAGS)" GLFLAGS="$(GLFLAGS)" BUILD_DATE=$(BUILD_DATE)
 
 vst3:
-	$(MAKE) -C plugin/builds/linux_vst VST3 CONFIG=$(CONFIG) AR=gcc-ar SIMDFLAGS="$(SIMDFLAGS)" GLFLAGS="$(GLFLAGS)" BUILD_DATE=$(BUILD_DATE)
+	$(MAKE) -C plugin/builds/linux_vst VST3 Standalone CONFIG=$(CONFIG) AR=gcc-ar SIMDFLAGS="$(SIMDFLAGS)" GLFLAGS="$(GLFLAGS)" BUILD_DATE=$(BUILD_DATE)
 
 effects_vst:
 	$(MAKE) -C effects/builds/linux_vst VST CONFIG=$(CONFIG) AR=gcc-ar SIMDFLAGS="$(SIMDFLAGS)" GLFLAGS="$(GLFLAGS)" BUILD_DATE=$(BUILD_DATE)
@@ -127,27 +127,27 @@ install_standalone: standalone install_icons
 
 install_lv2: lv2
 	install -d $(LV2)
-	install -m644 plugin/builds/linux_lv2/Vital.lv2/* $(LV2)
+	install -m644 plugin/builds/linux_lv2/Vitalium.lv2/* $(LV2)
 
 install_effects_lv2: effects_lv2
 	install -d $(EFFECTS_LV2)
-	install -m644 effects/builds/linux_lv2/VitalFX.lv2/* $(EFFECTS_LV2)
+	install -m644 effects/builds/linux_lv2/VitaliumFX.lv2/* $(EFFECTS_LV2)
 
 install_vst: vst
 	install -d $(VSTDIR)
-	install plugin/builds/linux_vst/build/Vital.so $(VST)
+	install plugin/builds/linux_vst/build/Vitalium.so $(VST)
 
 install_effects_vst: effects_vst
 	install -d $(VSTDIR)
-	install effects/builds/linux_vst/build/VitalFX.so $(EFFECTS_VST)
+	install effects/builds/linux_vst/build/VitaliumFX.so $(EFFECTS_VST)
 
 install_vst3: vst3
 	install -d $(VST3)/$(VST3SUBDIR)
-	install -m644 plugin/builds/linux_vst/build/Vital.vst3/$(VST3SUBDIR)/* $(VST3)/$(VST3SUBDIR)
+	install -m644 plugin/builds/linux_vst/build/Vitalium.vst3/$(VST3SUBDIR)/* $(VST3)/$(VST3SUBDIR)
 
 install_effects_vst3: effects_vst3
 	install -d $(EFFECTS_VST3)/$(VST3SUBDIR)
-	install -m644 plugin/builds/linux_vst/build/VitalFX.vst3/$(VST3SUBDIR)/* $(EFFECTS_VST3)/$(VST3SUBDIR)
+	install -m644 plugin/builds/linux_vst/build/VitaliumFX.vst3/$(VST3SUBDIR)/* $(EFFECTS_VST3)/$(VST3SUBDIR)
 
 install: install_standalone install_lv2 install_vst install_vst3
 install_effects: install_effects_lv2 install_effects_vst install_effects_vst3
@@ -185,9 +185,9 @@ dist:
 
 zip_binaries:
 	mkdir $(ZIP_FOLDER)
-	cp -r plugin/builds/linux_lv2/Vital.lv2 $(ZIP_FOLDER)
-	cp -r plugin/builds/linux_vst/build/Vital.so $(ZIP_FOLDER)
-	cp -r plugin/builds/linux_vst/build/Vital.vst3 $(ZIP_FOLDER)
+	cp -r plugin/builds/linux_lv2/Vitalium.lv2 $(ZIP_FOLDER)
+	cp -r plugin/builds/linux_vst/build/Vitalium.so $(ZIP_FOLDER)
+	cp -r plugin/builds/linux_vst/build/Vitalium.vst3 $(ZIP_FOLDER)
 	cp -r standalone/builds/linux/build/$(PROGRAM) $(ZIP_FOLDER)
 	zip -r $(ZIP_FOLDER) $(ZIP_FOLDER)
 

@@ -271,8 +271,13 @@ const String makePluginFile (AudioProcessor* const filter, const int maxNumInput
     // UIs
     if (filter->hasEditor())
     {
-        text += "    ui:ui <" + pluginURI + "#ExternalUI> ,\n";
-        text += "          <" + pluginURI + "#ParentUI> ;\n";
+        // FIXME: Vital segfaults when the external UI is closed, so
+        // we're disabling it for now. The parent UI seems to be the
+        // default in at least Ardour and Carla anyway.
+
+        //text += "    ui:ui <" + pluginURI + "#ExternalUI> ,\n";
+        //text += "          <" + pluginURI + "#ParentUI> ;\n";
+        text += "    ui:ui <" + pluginURI + "#ParentUI> ;\n";
         text += "\n";
     }
 
@@ -742,8 +747,9 @@ public:
         addAndMakeVisible (editor);
     }
 
-    ~JuceLv2ParentContainer()
+    ~JuceLv2ParentContainer() override
     {
+        deleteAllChildren();
     }
 
     void paint (Graphics&) {}
@@ -873,15 +879,15 @@ public:
 
         filter->removeListener(this);
 
-        parentContainer = nullptr;
-        externalUI = nullptr;
-        externalUIHost = nullptr;
-
         if (editor != nullptr)
         {
             filter->editorBeingDeleted (editor);
             editor = nullptr;
         }
+
+        parentContainer = nullptr;
+        externalUI = nullptr;
+        externalUIHost = nullptr;
     }
 
     //==============================================================================
@@ -1848,13 +1854,43 @@ public:
     JuceLv2UIWrapper* getUI (LV2UI_Write_Function writeFunction, LV2UI_Controller controller, LV2UI_Widget* widget,
                              const LV2_Feature* const* features, bool isExternal)
     {
-        const MessageManagerLock mmLock;
+        // WORKAROUND: If we lock the message thread, `createEditorIfNeeded()`
+        // (called by `JuceLv2UIWrapper`'s constructor) eventually calls
+        // `XWindowSystem::initializeXDisplay()`, which tries to register a
+        // callback with `LinuxEventLoop::registerFdCallback()`, which obtains
+        // the lock in `InternalRunLoop`. But locking the message thread with
+        // a `MessageManagerLock` causes the message thread to block *while
+        // holding that same lock*, so we get a deadlock.
+        //
+        // As a workaround, we instantiate the UI on the message thread itself
+        // so that the call to `reigisterFdCallback()` in
+        // `initializeXDisplay()` won't deadlock. There really seems to be a
+        // bug in the implementation of `InternalRunLoop` in
+        // juce_linux_Messaging.cpp, but this workaround prevents us from
+        // having to modify internal JUCE code (aside from this LV2 wrapper).
 
-        if (ui != nullptr)
-            ui->resetIfNeeded (writeFunction, controller, widget, features);
-        else
+        //const MessageManagerLock mmLock;
+
+        // FIXME: We get graphical glitches and crashes when Vital's UI is
+        // opened, closed, and then opened again. As a workaround, we create
+        // a new UI every time. This (probably?) isn't ideal (but it seems like
+        // it might be similar to what the VST wrapper does?). Maybe someone
+        // more familiar with JUCE knows if there's a better way to avoid this
+        // issue.
+
+        //if (ui != nullptr)
+        //    ui->resetIfNeeded (writeFunction, controller, widget, features);
+        //else
+        //    ui = new JuceLv2UIWrapper (filter, writeFunction, controller, widget, features, isExternal);
+
+        WaitableEvent callbackDone;
+        MessageManager::callAsync ([&]
+        {
+            ui = nullptr;
             ui = new JuceLv2UIWrapper (filter, writeFunction, controller, widget, features, isExternal);
-
+            callbackDone.signal();
+        });
+        callbackDone.wait();
         return ui;
     }
 

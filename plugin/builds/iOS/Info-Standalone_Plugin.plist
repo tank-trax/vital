@@ -12,11 +12,11 @@
     <key>CFBundleExecutable</key>
     <string>${EXECUTABLE_NAME}</string>
     <key>CFBundleIdentifier</key>
-    <string>audio.vial.synth</string>
+    <string>audio.vitalium.synth</string>
     <key>CFBundleName</key>
-    <string>Vial</string>
+    <string>Vitalium</string>
     <key>CFBundleDisplayName</key>
-    <string>Vial</string>
+    <string>Vitalium</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleSignature</key>
@@ -26,7 +26,7 @@
     <key>CFBundleVersion</key>
     <string>1.0.6</string>
     <key>NSHumanReadableCopyright</key>
-    <string>Matt Tytel</string>
+    <string>Vitalium</string>
     <key>NSHighResolutionCapable</key>
     <true/>
     <key>UIRequiresFullScreen</key>
@@ -40,20 +40,5 @@
     </array>
     <key>UIBackgroundModes</key>
     <array/>
-    <key>AudioComponents</key>
-    <array>
-      <dict>
-        <key>name</key>
-        <string>Vial Audio: Vial</string>
-        <key>manufacturer</key>
-        <string>Open</string>
-        <key>type</key>
-        <string>auri</string>
-        <key>subtype</key>
-        <string>Vial</string>
-        <key>version</key>
-        <integer>65542</integer>
-      </dict>
-    </array>
   </dict>
 </plist>

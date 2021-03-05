@@ -36,7 +36,7 @@ AboutSection::AboutSection(const String& name) : Overlay(name), body_(Shaders::k
   logo_ = std::make_unique<AppLogo>("logo");
   addOpenGlComponent(logo_.get());
 
-  name_text_ = std::make_unique<PlainTextComponent>("plugin name", "VITALIUM");
+  name_text_ = std::make_unique<PlainTextComponent>("plugin name", "Vitalium +/-");
   addOpenGlComponent(name_text_.get());
   name_text_->setFontType(PlainTextComponent::kRegular);
   name_text_->setTextSize(40.0f);
@@ -47,7 +47,7 @@ AboutSection::AboutSection(const String& name) : Overlay(name), body_(Shaders::k
   version_text_->setTextSize(12.0f);
 
   fork_text_ = std::make_unique<PlainTextComponent>("About fork",
-      String("Original Vital plugin by Matt Tytel\nVitalium fork by tank-trax\nadditional code by falkTX"));
+      String("Original Vital plugin by Matt Tytel\nVitalium +/- fork by tank-trax\nadditional code by tank-trax, falkTX, taylordotfish"));
   addOpenGlComponent(fork_text_.get());
   fork_text_->setFontType(PlainTextComponent::kLight);
   fork_text_->setTextSize(14.0f);
