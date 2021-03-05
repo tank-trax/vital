@@ -21,6 +21,7 @@ instructions
 ```
 git clone https://github.com/tank-trax/vitalium.git
 cd vitalium
+git checkout vitalium-1.0.6
 make
 ```
 
