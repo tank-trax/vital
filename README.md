@@ -1,8 +1,8 @@
 This build represents an unofficial fork of the recently open sourced Waveform Synthesizer Vital, which includes modifications to the `jucer` and `make` files as well as other parts of the source to successfully build Vitalium as
 
 
- - a Standalone app with JACK support
- - a VST3 plugin
+ - Standalone app with JACK support
+ - VST3 plugin
  - LV2 plugin 
 
 for Linux/GNU. 
