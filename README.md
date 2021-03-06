@@ -19,8 +19,8 @@ Successfully tested and built on Debian Buster.
 instructions
 
 ```
-git clone https://github.com/tank-trax/vitalium.git
-cd vitalium
+git clone https://github.com/tank-trax/vital.git
+cd vital
 git checkout vitalium-1.0.6
 make
 ```
