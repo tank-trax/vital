@@ -19,7 +19,7 @@ Instructions
 ```
 git clone https://github.com/tank-trax/vital.git
 cd vital
-checkout vitality+minus-1.0.6
+git checkout vitality+minus-1.0.6
 make
 ```
 
