@@ -38,16 +38,16 @@
  #define JucePlugin_Enable_IAA             0
 #endif
 #ifndef  JucePlugin_Name
- #define JucePlugin_Name                   "Vitalium"
+ #define JucePlugin_Name                   "Vitality+Minus"
 #endif
 #ifndef  JucePlugin_Desc
  #define JucePlugin_Desc                   ""
 #endif
 #ifndef  JucePlugin_Manufacturer
- #define JucePlugin_Manufacturer           "Vitalium"
+ #define JucePlugin_Manufacturer           "Vitality+Minus"
 #endif
 #ifndef  JucePlugin_ManufacturerWebsite
- #define JucePlugin_ManufacturerWebsite    "vitalium.audio"
+ #define JucePlugin_ManufacturerWebsite    "vitality+minus.audio"
 #endif
 #ifndef  JucePlugin_ManufacturerEmail
  #define JucePlugin_ManufacturerEmail      "noreply@github.com"
@@ -98,16 +98,16 @@
  #define JucePlugin_AUSubType              JucePlugin_PluginCode
 #endif
 #ifndef  JucePlugin_AUExportPrefix
- #define JucePlugin_AUExportPrefix         vitalium
+ #define JucePlugin_AUExportPrefix         vitality+minus
 #endif
 #ifndef  JucePlugin_AUExportPrefixQuoted
- #define JucePlugin_AUExportPrefixQuoted   "vitalium"
+ #define JucePlugin_AUExportPrefixQuoted   "vitality+minus"
 #endif
 #ifndef  JucePlugin_AUManufacturerCode
  #define JucePlugin_AUManufacturerCode     JucePlugin_ManufacturerCode
 #endif
 #ifndef  JucePlugin_CFBundleIdentifier
- #define JucePlugin_CFBundleIdentifier     audio.vitalium.synth
+ #define JucePlugin_CFBundleIdentifier     audio.vitality+minus.synth
 #endif
 #ifndef  JucePlugin_RTASCategory
  #define JucePlugin_RTASCategory           0
@@ -125,7 +125,7 @@
  #define JucePlugin_RTASDisableMultiMono   0
 #endif
 #ifndef  JucePlugin_AAXIdentifier
- #define JucePlugin_AAXIdentifier          audio.vitalium.synth
+ #define JucePlugin_AAXIdentifier          audio.vitality+minus.synth
 #endif
 #ifndef  JucePlugin_AAXManufacturerCode
  #define JucePlugin_AAXManufacturerCode    JucePlugin_ManufacturerCode
@@ -149,7 +149,7 @@
  #define JucePlugin_IAASubType             JucePlugin_PluginCode
 #endif
 #ifndef  JucePlugin_IAAName
- #define JucePlugin_IAAName                "Vitalium: Vitalium"
+ #define JucePlugin_IAAName                "Vitality+Minus: Vitality+Minus"
 #endif
 #ifndef  JucePlugin_VSTNumMidiInputs
  #define JucePlugin_VSTNumMidiInputs       16

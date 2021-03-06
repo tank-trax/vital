@@ -27,7 +27,7 @@
 #define STRINGIFY(x) QUOTE(x)
 
 namespace {
-  const std::string kLinuxUserDataDirectory = "~/.local/share/vitalium/";
+  const std::string kLinuxUserDataDirectory = "~/.local/share/vitality+minus/";
   const std::string kAvailablePacksFile = "available_packs.json";
   const std::string kInstalledPacksFile = "packs.json";
 
@@ -1129,7 +1129,7 @@ std::string LoadSave::getLicense(json data) {
 File LoadSave::getConfigFile() {
 #if defined(JUCE_DATA_STRUCTURES_H_INCLUDED)
   PropertiesFile::Options config_options;
-  config_options.applicationName = "Vitalium";
+  config_options.applicationName = "Vitality+Minus";
   config_options.osxLibrarySubFolder = "Application Support";
   config_options.filenameSuffix = "config";
 
@@ -1165,7 +1165,7 @@ void LoadSave::writeErrorLog(String error_log) {
 File LoadSave::getFavoritesFile() {
 #if defined(JUCE_DATA_STRUCTURES_H_INCLUDED)
   PropertiesFile::Options config_options;
-  config_options.applicationName = "Vitalium";
+  config_options.applicationName = "Vitality+Minus";
   config_options.osxLibrarySubFolder = "Application Support";
   config_options.filenameSuffix = "favorites";
 
@@ -1184,7 +1184,7 @@ File LoadSave::getFavoritesFile() {
 File LoadSave::getDefaultSkin() {
 #if defined(JUCE_DATA_STRUCTURES_H_INCLUDED)
   PropertiesFile::Options config_options;
-  config_options.applicationName = "Vitalium";
+  config_options.applicationName = "Vitality+Minus";
   config_options.osxLibrarySubFolder = "Application Support";
   config_options.filenameSuffix = "skin";
 
@@ -1700,14 +1700,14 @@ File LoadSave::getDataDirectory() {
   String xdg_data_home = SystemStats::getEnvironmentVariable ("XDG_DATA_HOME", {});
 
   if (!xdg_data_home.trim().isEmpty())
-    directory = File(xdg_data_home).getChildFile("Vitalium");
+    directory = File(xdg_data_home).getChildFile("Vitality+Minus");
 
 #elif defined(__APPLE__)
   File home_directory = File::getSpecialLocation(File::userHomeDirectory);
-  File directory = home_directory.getChildFile("Music").getChildFile("Vitalium");
+  File directory = home_directory.getChildFile("Music").getChildFile("Vitality+Minus");
 #else
   File documents_dir = File::getSpecialLocation(File::userDocumentsDirectory);
-  File directory = documents_dir.getChildFile("Vitalium");
+  File directory = documents_dir.getChildFile("Vitality+Minus");
 #endif
 
   return directory;
