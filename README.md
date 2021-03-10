@@ -17,7 +17,7 @@ cd vital
 git checkout vitality+-1.0.6-win-lite
 ```
 
-Open the Solution Visual Studio 2017 and build the Release
+Open the `Vitality+Minus.sln` in Visual Studio 2017, select Release and Build.
 
 This will produce the Standalone and VST3 in `plugin\builds\vs17\x64\Release`
 
