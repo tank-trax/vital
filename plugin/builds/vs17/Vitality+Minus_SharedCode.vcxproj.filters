@@ -1,96 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Vial\tunings">
-      <UniqueIdentifier>{B42216B6-873D-81B6-D254-53637CEB15E9}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\tunings">
+      <UniqueIdentifier>{ABC6DEB9-C8AE-9AB1-6BA8-5DFCE0F15434}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\skins">
-      <UniqueIdentifier>{0BFDD917-4D3D-AFB3-B397-5B9588A56252}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\skins">
+      <UniqueIdentifier>{B480AE80-145A-1D97-B589-D5234311A8EA}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\fonts">
-      <UniqueIdentifier>{BC034ADF-EA3B-CFE2-5DA9-FA7D2CAC5F66}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\fonts">
+      <UniqueIdentifier>{F623AB5A-E650-ED7F-461E-DD5DF463DE5A}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\icons">
-      <UniqueIdentifier>{530D6584-01A8-91AA-C42F-FF47BF6C6223}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\icons">
+      <UniqueIdentifier>{7B5BC481-06AA-2877-C72E-975F9CB3AC95}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\src\common\wavetable">
-      <UniqueIdentifier>{483A35FD-40E9-022C-3078-1D9F783CB7DA}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\src\common\wavetable">
+      <UniqueIdentifier>{F54F0CE4-F657-BDEE-8E6A-D49F228491AD}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\src\common">
-      <UniqueIdentifier>{A98E7004-D680-F327-7EC9-ED177D32CE15}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\src\common">
+      <UniqueIdentifier>{99F2D537-1F21-B0ED-77D9-D38189EFAE34}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\src\interface\editor_components">
-      <UniqueIdentifier>{42F85843-7867-3A8F-76F2-B6EABE10CB2C}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\src\interface\editor_components">
+      <UniqueIdentifier>{0B7D4F86-76EB-C030-6B91-7E84614015E2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\src\interface\editor_sections">
-      <UniqueIdentifier>{CACD2B25-14C4-7CEE-860F-5788D093EAD3}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\src\interface\editor_sections">
+      <UniqueIdentifier>{1F6571DA-B4D0-60C3-C525-73BC510ED35B}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\src\interface\look_and_feel">
-      <UniqueIdentifier>{F0884216-D1AE-A44D-94C4-36EC91D9CFCC}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\src\interface\look_and_feel">
+      <UniqueIdentifier>{680BF4A6-63D6-666E-58B5-D2965D3B0738}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\src\interface\wavetable\editors">
-      <UniqueIdentifier>{3FF88BE0-B72C-9CC0-06AA-66DFF05B67A8}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\src\interface\wavetable\editors">
+      <UniqueIdentifier>{832F44BB-DDAC-1D20-80F1-76B74C19E058}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\src\interface\wavetable\overlays">
-      <UniqueIdentifier>{EC529DEB-7FF8-A79E-07B0-54CD06B02B26}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\src\interface\wavetable\overlays">
+      <UniqueIdentifier>{8CB991CA-B465-9941-936F-D32CE38827A4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\src\interface\wavetable">
-      <UniqueIdentifier>{978B9F97-0389-61E0-072D-DC6A066B3E81}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\src\interface\wavetable">
+      <UniqueIdentifier>{BF997C79-C4CE-7D50-553C-6F6880C0DF34}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\src\interface">
-      <UniqueIdentifier>{A62595B4-7DE1-28F6-6EAE-3F49B7339114}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\src\interface">
+      <UniqueIdentifier>{EA514E40-8ABE-7E42-6E2B-2A23A8DDF474}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\src\plugin">
-      <UniqueIdentifier>{ECEC45B2-C735-0644-1418-47F3C3CAB41C}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\src\plugin">
+      <UniqueIdentifier>{68A9F0C1-B03D-46A2-B3C3-DB1ECF496F43}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\src\synthesis\effects">
-      <UniqueIdentifier>{E2ADBDEE-D55A-9DFA-0A9B-A41120E0D64E}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\src\synthesis\effects">
+      <UniqueIdentifier>{286ACE02-7D5C-38FC-9F39-912886C5BE74}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\src\synthesis\filters">
-      <UniqueIdentifier>{FA4433AE-F398-A37B-23BA-5F386A585A3A}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\src\synthesis\filters">
+      <UniqueIdentifier>{C65688EC-02DF-D1D1-10A0-4CE8536B42E1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\src\synthesis\framework">
-      <UniqueIdentifier>{A4A91E27-8A00-6AF7-27EB-8A438EB010FF}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\src\synthesis\framework">
+      <UniqueIdentifier>{0219023C-3DC6-C2D3-28B4-A5C33AB86CDC}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\src\synthesis\lookups">
-      <UniqueIdentifier>{A492DFA4-A43C-EDD8-E9E5-EB215911B1AC}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\src\synthesis\lookups">
+      <UniqueIdentifier>{67CF61E0-A6B3-14E7-E313-6D6108CA60CA}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\src\synthesis\modulators">
-      <UniqueIdentifier>{3F9DEF21-DBA0-4304-2A3F-23455F56EC8A}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\src\synthesis\modulators">
+      <UniqueIdentifier>{CD3E9B26-92E6-6EFC-5F5E-2F25BF75863A}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\src\synthesis\modules">
-      <UniqueIdentifier>{18343820-EBD1-E74D-3254-ACE229887CDC}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\src\synthesis\modules">
+      <UniqueIdentifier>{E9908180-BD3D-5A67-0D9B-6F41FFA2C3D0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\src\synthesis\producers">
-      <UniqueIdentifier>{2075E6E1-8800-23EE-2F7E-C2F29C09544D}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\src\synthesis\producers">
+      <UniqueIdentifier>{BD32062B-B93F-E9F2-184D-6AE0E0A80412}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\src\synthesis\synth_engine">
-      <UniqueIdentifier>{4A048FE9-BF70-59D0-072A-E0063AC57F9E}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\src\synthesis\synth_engine">
+      <UniqueIdentifier>{EAE01C37-4A19-77A0-2FE9-E1366026D54F}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\src\synthesis\utilities">
-      <UniqueIdentifier>{F1E83AC7-7711-7CDB-9E93-FF9AF7510F86}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\src\synthesis\utilities">
+      <UniqueIdentifier>{F3C7565A-1440-DB1F-7C5A-6D025EAA1951}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\src\synthesis">
-      <UniqueIdentifier>{29BD8969-5A81-AA73-306B-38F6600FAEA9}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\src\synthesis">
+      <UniqueIdentifier>{215CD093-A866-8AE5-FE62-495C8288DEE8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\src\unity_build">
-      <UniqueIdentifier>{5B88ABDF-FFAE-92B5-B1C3-02C8736161B0}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\src\unity_build">
+      <UniqueIdentifier>{00341333-6A29-9B63-FC67-4D96CCF683DD}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\src">
-      <UniqueIdentifier>{8D1DE5E6-B9A9-E2D8-3DC7-DF650D75322A}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\src">
+      <UniqueIdentifier>{FA52A4E3-0A47-5636-4AB9-F17668F76C2B}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\third_party\concurrentqueue">
-      <UniqueIdentifier>{F78F5934-A453-CC43-D4C1-FA1890FCF11E}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\third_party\concurrentqueue">
+      <UniqueIdentifier>{3681E2B6-71F0-5140-2F79-BE38B2498117}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\third_party\json">
-      <UniqueIdentifier>{E91B3FBD-3C2E-7B17-9931-74FF7808B581}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\third_party\json">
+      <UniqueIdentifier>{FD81AA6E-BC2F-43FC-77AC-01B865A24A56}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\third_party">
-      <UniqueIdentifier>{7706B794-A371-3787-43BC-CB8E12A84C64}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus\third_party">
+      <UniqueIdentifier>{5C085D4C-C031-52AE-666C-8E2F82594187}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial">
-      <UniqueIdentifier>{9D79832B-ECA5-8E86-2855-66D9DCA7271B}</UniqueIdentifier>
+    <Filter Include="Vitality+Minus">
+      <UniqueIdentifier>{64E670D3-ABD3-EBC4-D460-11A5E7679236}</UniqueIdentifier>
     </Filter>
     <Filter Include="JUCE Modules\juce_audio_basics\audio_play_head">
       <UniqueIdentifier>{EB58F05A-A968-CEBE-40C4-107CDD8F240F}</UniqueIdentifier>
@@ -557,607 +556,607 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\src\common\wavetable\file_source.cpp">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\wavetable\frequency_filter_modifier.cpp">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\wavetable\phase_modifier.cpp">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\wavetable\pitch_detector.cpp">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\wavetable\shepard_tone_source.cpp">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\wavetable\slew_limit_modifier.cpp">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\wavetable\wave_fold_modifier.cpp">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\wavetable\wave_line_source.cpp">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\wavetable\wave_source.cpp">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\wavetable\wave_warp_modifier.cpp">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\wavetable\wave_window_modifier.cpp">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\wavetable\wavetable_component.cpp">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\wavetable\wavetable_component_factory.cpp">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\wavetable\wavetable_creator.cpp">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\wavetable\wavetable_group.cpp">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\wavetable\wavetable_keyframe.cpp">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\border_bounds_constrainer.cpp">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\line_generator.cpp">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\load_save.cpp">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\midi_manager.cpp">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\startup.cpp">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\synth_base.cpp">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\synth_gui_interface.cpp">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\synth_parameters.cpp">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\synth_types.cpp">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\common\tuning.cpp">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\bar_renderer.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\compressor_editor.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\drag_drop_effect_order.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\envelope_editor.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\equalizer_response.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\filter_response.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\lfo_editor.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\line_editor.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\line_map_editor.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\midi_keyboard.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\modulation_button.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\modulation_meter.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\modulation_tab_selector.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\open_gl_background.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\open_gl_component.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\open_gl_image.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\open_gl_image_component.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\open_gl_line_renderer.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\open_gl_multi_image.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\open_gl_multi_quad.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\oscilloscope.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\peak_meter_viewer.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\preset_selector.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\sample_viewer.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\synth_button.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\synth_preset_selector.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\synth_slider.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\tab_selector.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\tempo_selector.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\text_selector.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\transpose_quantize.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_components\wavetable_3d.cpp">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\about_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\authentication_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\bank_exporter.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\bend_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\chorus_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\compressor_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\delay_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\delete_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\distortion_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\download_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\effects_interface.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\envelope_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\equalizer_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\expired_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\extra_mod_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\filter_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\flanger_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\full_interface.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\header_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\keyboard_interface.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\lfo_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\macro_knob_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\master_controls_interface.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\modulation_interface.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\modulation_manager.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\modulation_matrix.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\oscillator_advanced_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\oscillator_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\phaser_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\popup_browser.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\portamento_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\preset_browser.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\random_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\reverb_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\sample_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\save_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\synth_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\synthesis_interface.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\update_check_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\voice_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\volume_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\wavetable_edit_section.cpp">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\look_and_feel\curve_look_and_feel.cpp">
-      <Filter>Vial\src\interface\look_and_feel</Filter>
+      <Filter>Vitality+Minus\src\interface\look_and_feel</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\look_and_feel\default_look_and_feel.cpp">
-      <Filter>Vial\src\interface\look_and_feel</Filter>
+      <Filter>Vitality+Minus\src\interface\look_and_feel</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\look_and_feel\fonts.cpp">
-      <Filter>Vial\src\interface\look_and_feel</Filter>
+      <Filter>Vitality+Minus\src\interface\look_and_feel</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\look_and_feel\shaders.cpp">
-      <Filter>Vial\src\interface\look_and_feel</Filter>
+      <Filter>Vitality+Minus\src\interface\look_and_feel</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\look_and_feel\skin.cpp">
-      <Filter>Vial\src\interface\look_and_feel</Filter>
+      <Filter>Vitality+Minus\src\interface\look_and_feel</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\look_and_feel\text_look_and_feel.cpp">
-      <Filter>Vial\src\interface\look_and_feel</Filter>
+      <Filter>Vitality+Minus\src\interface\look_and_feel</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\wavetable\editors\bar_editor.cpp">
-      <Filter>Vial\src\interface\wavetable\editors</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\editors</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\wavetable\editors\phase_editor.cpp">
-      <Filter>Vial\src\interface\wavetable\editors</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\editors</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\wavetable\editors\wave_source_editor.cpp">
-      <Filter>Vial\src\interface\wavetable\editors</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\editors</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\wavetable\editors\wave_window_editor.cpp">
-      <Filter>Vial\src\interface\wavetable\editors</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\editors</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\wavetable\overlays\file_source_overlay.cpp">
-      <Filter>Vial\src\interface\wavetable\overlays</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\overlays</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\wavetable\overlays\frequency_filter_overlay.cpp">
-      <Filter>Vial\src\interface\wavetable\overlays</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\overlays</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\wavetable\overlays\phase_modifier_overlay.cpp">
-      <Filter>Vial\src\interface\wavetable\overlays</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\overlays</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\wavetable\overlays\slew_limiter_overlay.cpp">
-      <Filter>Vial\src\interface\wavetable\overlays</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\overlays</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\wavetable\overlays\wave_fold_overlay.cpp">
-      <Filter>Vial\src\interface\wavetable\overlays</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\overlays</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\wavetable\overlays\wave_line_source_overlay.cpp">
-      <Filter>Vial\src\interface\wavetable\overlays</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\overlays</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\wavetable\overlays\wave_source_overlay.cpp">
-      <Filter>Vial\src\interface\wavetable\overlays</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\overlays</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\wavetable\overlays\wavetable_component_overlay.cpp">
-      <Filter>Vial\src\interface\wavetable\overlays</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\overlays</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\wavetable\overlays\wave_warp_overlay.cpp">
-      <Filter>Vial\src\interface\wavetable\overlays</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\overlays</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\wavetable\overlays\wave_window_overlay.cpp">
-      <Filter>Vial\src\interface\wavetable\overlays</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\overlays</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\wavetable\wavetable_component_list.cpp">
-      <Filter>Vial\src\interface\wavetable</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\wavetable\wavetable_organizer.cpp">
-      <Filter>Vial\src\interface\wavetable</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\wavetable\wavetable_overlay_factory.cpp">
-      <Filter>Vial\src\interface\wavetable</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\wavetable\wavetable_playhead.cpp">
-      <Filter>Vial\src\interface\wavetable</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\interface\wavetable\wavetable_playhead_info.cpp">
-      <Filter>Vial\src\interface\wavetable</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\plugin\synth_editor.cpp">
-      <Filter>Vial\src\plugin</Filter>
+      <Filter>Vitality+Minus\src\plugin</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\plugin\synth_plugin.cpp">
-      <Filter>Vial\src\plugin</Filter>
+      <Filter>Vitality+Minus\src\plugin</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\effects\compressor.cpp">
-      <Filter>Vial\src\synthesis\effects</Filter>
+      <Filter>Vitality+Minus\src\synthesis\effects</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\effects\delay.cpp">
-      <Filter>Vial\src\synthesis\effects</Filter>
+      <Filter>Vitality+Minus\src\synthesis\effects</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\effects\distortion.cpp">
-      <Filter>Vial\src\synthesis\effects</Filter>
+      <Filter>Vitality+Minus\src\synthesis\effects</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\effects\phaser.cpp">
-      <Filter>Vial\src\synthesis\effects</Filter>
+      <Filter>Vitality+Minus\src\synthesis\effects</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\effects\reverb.cpp">
-      <Filter>Vial\src\synthesis\effects</Filter>
+      <Filter>Vitality+Minus\src\synthesis\effects</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\filters\comb_filter.cpp">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\filters\dc_filter.cpp">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\filters\decimator.cpp">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\filters\digital_svf.cpp">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\filters\diode_filter.cpp">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\filters\dirty_filter.cpp">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\filters\fir_halfband_decimator.cpp">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\filters\formant_filter.cpp">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\filters\formant_manager.cpp">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\filters\iir_halfband_decimator.cpp">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\filters\ladder_filter.cpp">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\filters\linkwitz_riley_filter.cpp">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\filters\phaser_filter.cpp">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\filters\sallen_key_filter.cpp">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\filters\synth_filter.cpp">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\filters\upsampler.cpp">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\filters\vocal_tract.cpp">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\framework\feedback.cpp">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\framework\operators.cpp">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\framework\processor.cpp">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\framework\processor_router.cpp">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\framework\synth_module.cpp">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\framework\utils.cpp">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\framework\value.cpp">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\framework\voice_handler.cpp">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\lookups\wave_frame.cpp">
-      <Filter>Vial\src\synthesis\lookups</Filter>
+      <Filter>Vitality+Minus\src\synthesis\lookups</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\lookups\wavetable.cpp">
-      <Filter>Vial\src\synthesis\lookups</Filter>
+      <Filter>Vitality+Minus\src\synthesis\lookups</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modulators\envelope.cpp">
-      <Filter>Vial\src\synthesis\modulators</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modulators</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modulators\line_map.cpp">
-      <Filter>Vial\src\synthesis\modulators</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modulators</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modulators\random_lfo.cpp">
-      <Filter>Vial\src\synthesis\modulators</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modulators</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modulators\synth_lfo.cpp">
-      <Filter>Vial\src\synthesis\modulators</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modulators</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modulators\trigger_random.cpp">
-      <Filter>Vial\src\synthesis\modulators</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modulators</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modules\chorus_module.cpp">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modules\comb_module.cpp">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modules\compressor_module.cpp">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modules\delay_module.cpp">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modules\distortion_module.cpp">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modules\envelope_module.cpp">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modules\equalizer_module.cpp">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modules\filter_module.cpp">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modules\filters_module.cpp">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modules\flanger_module.cpp">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modules\formant_module.cpp">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modules\lfo_module.cpp">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modules\modulation_connection_processor.cpp">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modules\oscillator_module.cpp">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modules\phaser_module.cpp">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modules\producers_module.cpp">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modules\random_lfo_module.cpp">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modules\reorderable_effect_chain.cpp">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modules\reverb_module.cpp">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modules\sample_module.cpp">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\modules\synth_voice_handler.cpp">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\producers\sample_source.cpp">
-      <Filter>Vial\src\synthesis\producers</Filter>
+      <Filter>Vitality+Minus\src\synthesis\producers</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\producers\synth_oscillator.cpp">
-      <Filter>Vial\src\synthesis\producers</Filter>
+      <Filter>Vitality+Minus\src\synthesis\producers</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\synth_engine\sound_engine.cpp">
-      <Filter>Vial\src\synthesis\synth_engine</Filter>
+      <Filter>Vitality+Minus\src\synthesis\synth_engine</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\utilities\legato_filter.cpp">
-      <Filter>Vial\src\synthesis\utilities</Filter>
+      <Filter>Vitality+Minus\src\synthesis\utilities</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\utilities\peak_meter.cpp">
-      <Filter>Vial\src\synthesis\utilities</Filter>
+      <Filter>Vitality+Minus\src\synthesis\utilities</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\utilities\portamento_slope.cpp">
-      <Filter>Vial\src\synthesis\utilities</Filter>
+      <Filter>Vitality+Minus\src\synthesis\utilities</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\utilities\smooth_value.cpp">
-      <Filter>Vial\src\synthesis\utilities</Filter>
+      <Filter>Vitality+Minus\src\synthesis\utilities</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\synthesis\utilities\value_switch.cpp">
-      <Filter>Vial\src\synthesis\utilities</Filter>
+      <Filter>Vitality+Minus\src\synthesis\utilities</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\unity_build\common.cpp">
-      <Filter>Vial\src\unity_build</Filter>
+      <Filter>Vitality+Minus\src\unity_build</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\unity_build\interface_editor_components.cpp">
-      <Filter>Vial\src\unity_build</Filter>
+      <Filter>Vitality+Minus\src\unity_build</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\unity_build\interface_editor_sections.cpp">
-      <Filter>Vial\src\unity_build</Filter>
+      <Filter>Vitality+Minus\src\unity_build</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\unity_build\interface_editor_sections2.cpp">
-      <Filter>Vial\src\unity_build</Filter>
+      <Filter>Vitality+Minus\src\unity_build</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\unity_build\interface_look_and_feel.cpp">
-      <Filter>Vial\src\unity_build</Filter>
+      <Filter>Vitality+Minus\src\unity_build</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\unity_build\interface_wavetable.cpp">
-      <Filter>Vial\src\unity_build</Filter>
+      <Filter>Vitality+Minus\src\unity_build</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\unity_build\plugin.cpp">
-      <Filter>Vial\src\unity_build</Filter>
+      <Filter>Vitality+Minus\src\unity_build</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\unity_build\synthesis.cpp">
-      <Filter>Vial\src\unity_build</Filter>
+      <Filter>Vitality+Minus\src\unity_build</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_basics\buffers\juce_AudioChannelSet.cpp">
       <Filter>JUCE Modules\juce_audio_basics\buffers</Filter>
@@ -1259,9 +1258,6 @@
       <Filter>JUCE Modules\juce_audio_basics\utilities</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_basics\juce_audio_basics.cpp">
-      <Filter>JUCE Modules\juce_audio_basics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_basics\juce_audio_basics.mm">
       <Filter>JUCE Modules\juce_audio_basics</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_devices\audio_io\juce_AudioDeviceManager.cpp">
@@ -1480,9 +1476,6 @@
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp">
       <Filter>JUCE Modules\juce_audio_devices</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_devices\juce_audio_devices.mm">
-      <Filter>JUCE Modules\juce_audio_devices</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\bitmath.c">
       <Filter>JUCE Modules\juce_audio_formats\codecs\flac\libFLAC</Filter>
     </ClCompile>
@@ -1654,9 +1647,6 @@
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp">
       <Filter>JUCE Modules\juce_audio_formats</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_formats\juce_audio_formats.mm">
-      <Filter>JUCE Modules\juce_audio_formats</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_plugin_client\LV2\juce_LV2_Wrapper.cpp">
       <Filter>JUCE Modules\juce_audio_plugin_client\LV2</Filter>
     </ClCompile>
@@ -1664,9 +1654,6 @@
       <Filter>JUCE Modules\juce_audio_plugin_client\utility</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client_utils.cpp">
-      <Filter>JUCE Modules\juce_audio_plugin_client</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client_VST_utils.mm">
       <Filter>JUCE Modules\juce_audio_plugin_client</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_processors\format\juce_AudioPluginFormat.cpp">
@@ -1744,9 +1731,6 @@
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_processors\format_types\VST3_SDK\public.sdk\source\vst\vstpresetfile.cpp">
       <Filter>JUCE Modules\juce_audio_processors\format_types\VST3_SDK\public.sdk\source\vst</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_processors\format_types\juce_AudioUnitPluginFormat.mm">
-      <Filter>JUCE Modules\juce_audio_processors\format_types</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_processors\format_types\juce_LADSPAPluginFormat.cpp">
       <Filter>JUCE Modules\juce_audio_processors\format_types</Filter>
     </ClCompile>
@@ -1816,9 +1800,6 @@
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_processors\juce_audio_processors.cpp">
       <Filter>JUCE Modules\juce_audio_processors</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_processors\juce_audio_processors.mm">
-      <Filter>JUCE Modules\juce_audio_processors</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_utils\audio_cd\juce_AudioCDReader.cpp">
       <Filter>JUCE Modules\juce_audio_utils\audio_cd</Filter>
     </ClCompile>
@@ -1843,22 +1824,10 @@
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_utils\native\juce_android_BluetoothMidiDevicePairingDialogue.cpp">
       <Filter>JUCE Modules\juce_audio_utils\native</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_utils\native\juce_ios_BluetoothMidiDevicePairingDialogue.mm">
-      <Filter>JUCE Modules\juce_audio_utils\native</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_utils\native\juce_linux_AudioCDReader.cpp">
       <Filter>JUCE Modules\juce_audio_utils\native</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_utils\native\juce_linux_BluetoothMidiDevicePairingDialogue.cpp">
-      <Filter>JUCE Modules\juce_audio_utils\native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_utils\native\juce_mac_AudioCDBurner.mm">
-      <Filter>JUCE Modules\juce_audio_utils\native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_utils\native\juce_mac_AudioCDReader.mm">
-      <Filter>JUCE Modules\juce_audio_utils\native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_utils\native\juce_mac_BluetoothMidiDevicePairingDialogue.mm">
       <Filter>JUCE Modules\juce_audio_utils\native</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_utils\native\juce_win_BluetoothMidiDevicePairingDialogue.cpp">
@@ -1877,9 +1846,6 @@
       <Filter>JUCE Modules\juce_audio_utils\players</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_utils\juce_audio_utils.cpp">
-      <Filter>JUCE Modules\juce_audio_utils</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_audio_utils\juce_audio_utils.mm">
       <Filter>JUCE Modules\juce_audio_utils</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_core\containers\juce_AbstractFifo.cpp">
@@ -2015,21 +1981,6 @@
       <Filter>JUCE Modules\juce_core\native</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_core\native\juce_linux_Threads.cpp">
-      <Filter>JUCE Modules\juce_core\native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_core\native\juce_mac_Files.mm">
-      <Filter>JUCE Modules\juce_core\native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_core\native\juce_mac_Network.mm">
-      <Filter>JUCE Modules\juce_core\native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_core\native\juce_mac_Strings.mm">
-      <Filter>JUCE Modules\juce_core\native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_core\native\juce_mac_SystemStats.mm">
-      <Filter>JUCE Modules\juce_core\native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_core\native\juce_mac_Threads.mm">
       <Filter>JUCE Modules\juce_core\native</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_core\native\juce_posix_NamedPipe.cpp">
@@ -2206,9 +2157,6 @@
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_core\juce_core.cpp">
       <Filter>JUCE Modules\juce_core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_core\juce_core.mm">
-      <Filter>JUCE Modules\juce_core</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_data_structures\app_properties\juce_ApplicationProperties.cpp">
       <Filter>JUCE Modules\juce_data_structures\app_properties</Filter>
     </ClCompile>
@@ -2234,9 +2182,6 @@
       <Filter>JUCE Modules\juce_data_structures\values</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_data_structures\juce_data_structures.cpp">
-      <Filter>JUCE Modules\juce_data_structures</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_data_structures\juce_data_structures.mm">
       <Filter>JUCE Modules\juce_data_structures</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_dsp\containers\juce_AudioBlock_test.cpp">
@@ -2347,9 +2292,6 @@
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_dsp\juce_dsp.cpp">
       <Filter>JUCE Modules\juce_dsp</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_dsp\juce_dsp.mm">
-      <Filter>JUCE Modules\juce_dsp</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_events\broadcasters\juce_ActionBroadcaster.cpp">
       <Filter>JUCE Modules\juce_events\broadcasters</Filter>
     </ClCompile>
@@ -2386,13 +2328,7 @@
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_events\native\juce_android_Messaging.cpp">
       <Filter>JUCE Modules\juce_events\native</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_events\native\juce_ios_MessageManager.mm">
-      <Filter>JUCE Modules\juce_events\native</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_events\native\juce_linux_Messaging.cpp">
-      <Filter>JUCE Modules\juce_events\native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_events\native\juce_mac_MessageManager.mm">
       <Filter>JUCE Modules\juce_events\native</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_events\native\juce_win32_Messaging.cpp">
@@ -2408,9 +2344,6 @@
       <Filter>JUCE Modules\juce_events\timers</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_events\juce_events.cpp">
-      <Filter>JUCE Modules\juce_events</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_events\juce_events.mm">
       <Filter>JUCE Modules\juce_events</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_graphics\colour\juce_Colour.cpp">
@@ -2695,12 +2628,6 @@
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_graphics\native\juce_linux_IconHelpers.cpp">
       <Filter>JUCE Modules\juce_graphics\native</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_graphics\native\juce_mac_CoreGraphicsContext.mm">
-      <Filter>JUCE Modules\juce_graphics\native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_graphics\native\juce_mac_Fonts.mm">
-      <Filter>JUCE Modules\juce_graphics\native</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_graphics\native\juce_mac_IconHelpers.cpp">
       <Filter>JUCE Modules\juce_graphics\native</Filter>
     </ClCompile>
@@ -2723,9 +2650,6 @@
       <Filter>JUCE Modules\juce_graphics\placement</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_graphics\juce_graphics.cpp">
-      <Filter>JUCE Modules\juce_graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_graphics\juce_graphics.mm">
       <Filter>JUCE Modules\juce_graphics</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_basics\application\juce_Application.cpp">
@@ -3001,34 +2925,10 @@
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_basics\native\juce_ios_ContentSharer.cpp">
       <Filter>JUCE Modules\juce_gui_basics\native</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_basics\native\juce_ios_FileChooser.mm">
-      <Filter>JUCE Modules\juce_gui_basics\native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_basics\native\juce_ios_UIViewComponentPeer.mm">
-      <Filter>JUCE Modules\juce_gui_basics\native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_basics\native\juce_ios_Windowing.mm">
-      <Filter>JUCE Modules\juce_gui_basics\native</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_basics\native\juce_linux_FileChooser.cpp">
       <Filter>JUCE Modules\juce_gui_basics\native</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_basics\native\juce_linux_Windowing.cpp">
-      <Filter>JUCE Modules\juce_gui_basics\native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_basics\native\juce_mac_FileChooser.mm">
-      <Filter>JUCE Modules\juce_gui_basics\native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_basics\native\juce_mac_MainMenu.mm">
-      <Filter>JUCE Modules\juce_gui_basics\native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_basics\native\juce_mac_MouseCursor.mm">
-      <Filter>JUCE Modules\juce_gui_basics\native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_basics\native\juce_mac_NSViewComponentPeer.mm">
-      <Filter>JUCE Modules\juce_gui_basics\native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_basics\native\juce_mac_Windowing.mm">
       <Filter>JUCE Modules\juce_gui_basics\native</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_basics\native\juce_win32_DragAndDrop.cpp">
@@ -3154,9 +3054,6 @@
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp">
       <Filter>JUCE Modules\juce_gui_basics</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_basics\juce_gui_basics.mm">
-      <Filter>JUCE Modules\juce_gui_basics</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_extra\code_editor\juce_CodeDocument.cpp">
       <Filter>JUCE Modules\juce_gui_extra\code_editor</Filter>
     </ClCompile>
@@ -3217,9 +3114,6 @@
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_extra\native\juce_ios_PushNotifications.cpp">
       <Filter>JUCE Modules\juce_gui_extra\native</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_extra\native\juce_ios_UIViewComponent.mm">
-      <Filter>JUCE Modules\juce_gui_extra\native</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_extra\native\juce_linux_X11_SystemTrayIcon.cpp">
       <Filter>JUCE Modules\juce_gui_extra\native</Filter>
     </ClCompile>
@@ -3229,19 +3123,10 @@
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_extra\native\juce_linux_XEmbedComponent.cpp">
       <Filter>JUCE Modules\juce_gui_extra\native</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_extra\native\juce_mac_AppleRemote.mm">
-      <Filter>JUCE Modules\juce_gui_extra\native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_extra\native\juce_mac_NSViewComponent.mm">
-      <Filter>JUCE Modules\juce_gui_extra\native</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_extra\native\juce_mac_PushNotifications.cpp">
       <Filter>JUCE Modules\juce_gui_extra\native</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_extra\native\juce_mac_SystemTrayIcon.cpp">
-      <Filter>JUCE Modules\juce_gui_extra\native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_extra\native\juce_mac_WebBrowserComponent.mm">
       <Filter>JUCE Modules\juce_gui_extra\native</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_extra\native\juce_win32_ActiveXComponent.cpp">
@@ -3257,9 +3142,6 @@
       <Filter>JUCE Modules\juce_gui_extra\native</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_extra\juce_gui_extra.cpp">
-      <Filter>JUCE Modules\juce_gui_extra</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_gui_extra\juce_gui_extra.mm">
       <Filter>JUCE Modules\juce_gui_extra</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_opengl\opengl\juce_OpenGLContext.cpp">
@@ -3290,9 +3172,6 @@
       <Filter>JUCE Modules\juce_opengl\utils</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_opengl\juce_opengl.cpp">
-      <Filter>JUCE Modules\juce_opengl</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\third_party\JUCE\modules\juce_opengl\juce_opengl.mm">
       <Filter>JUCE Modules\juce_opengl</Filter>
     </ClCompile>
     <ClCompile Include="..\..\JuceLibraryCode\BinaryData.cpp">
@@ -3343,649 +3222,649 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\src\common\wavetable\file_source.h">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\wavetable\frequency_filter_modifier.h">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\wavetable\phase_modifier.h">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\wavetable\pitch_detector.h">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\wavetable\shepard_tone_source.h">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\wavetable\slew_limit_modifier.h">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\wavetable\wave_fold_modifier.h">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\wavetable\wave_line_source.h">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\wavetable\wave_source.h">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\wavetable\wave_warp_modifier.h">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\wavetable\wave_window_modifier.h">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\wavetable\wavetable_component.h">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\wavetable\wavetable_component_factory.h">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\wavetable\wavetable_creator.h">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\wavetable\wavetable_group.h">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\wavetable\wavetable_keyframe.h">
-      <Filter>Vial\src\common\wavetable</Filter>
+      <Filter>Vitality+Minus\src\common\wavetable</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\authentication.h">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\border_bounds_constrainer.h">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\fourier_transform.h">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\line_generator.h">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\load_save.h">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\midi_manager.h">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\startup.h">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\synth_base.h">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\synth_constants.h">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\synth_gui_interface.h">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\synth_parameters.h">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\synth_types.h">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\common\tuning.h">
-      <Filter>Vial\src\common</Filter>
+      <Filter>Vitality+Minus\src\common</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\audio_file_drop_source.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\bar_renderer.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\compressor_editor.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\drag_drop_effect_order.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\envelope_editor.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\equalizer_response.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\filter_response.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\incrementer_buttons.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\lfo_editor.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\line_editor.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\line_map_editor.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\midi_keyboard.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\modulation_button.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\modulation_meter.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\modulation_tab_selector.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\open_gl_background.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\open_gl_component.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\open_gl_image.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\open_gl_image_component.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\open_gl_line_renderer.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\open_gl_multi_image.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\open_gl_multi_quad.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\oscilloscope.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\overlay.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\peak_meter_viewer.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\preset_selector.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\sample_viewer.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\synth_button.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\synth_preset_selector.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\synth_slider.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\tab_selector.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\tempo_selector.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\text_selector.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\transpose_quantize.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_components\wavetable_3d.h">
-      <Filter>Vial\src\interface\editor_components</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\about_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\authentication_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\bank_exporter.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\bend_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\chorus_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\compressor_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\delay_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\delete_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\distortion_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\download_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\effects_interface.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\envelope_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\equalizer_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\expired_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\extra_mod_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\filter_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\flanger_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\full_interface.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\header_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\keyboard_interface.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\lfo_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\macro_knob_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\master_controls_interface.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\modulation_interface.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\modulation_manager.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\modulation_matrix.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\oscillator_advanced_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\oscillator_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\phaser_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\popup_browser.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\portamento_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\preset_browser.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\random_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\reverb_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\sample_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\save_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\synth_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\synthesis_interface.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\update_check_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\voice_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\volume_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\wavetable_edit_section.h">
-      <Filter>Vial\src\interface\editor_sections</Filter>
+      <Filter>Vitality+Minus\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\look_and_feel\curve_look_and_feel.h">
-      <Filter>Vial\src\interface\look_and_feel</Filter>
+      <Filter>Vitality+Minus\src\interface\look_and_feel</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\look_and_feel\default_look_and_feel.h">
-      <Filter>Vial\src\interface\look_and_feel</Filter>
+      <Filter>Vitality+Minus\src\interface\look_and_feel</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\look_and_feel\fonts.h">
-      <Filter>Vial\src\interface\look_and_feel</Filter>
+      <Filter>Vitality+Minus\src\interface\look_and_feel</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\look_and_feel\paths.h">
-      <Filter>Vial\src\interface\look_and_feel</Filter>
+      <Filter>Vitality+Minus\src\interface\look_and_feel</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\look_and_feel\shaders.h">
-      <Filter>Vial\src\interface\look_and_feel</Filter>
+      <Filter>Vitality+Minus\src\interface\look_and_feel</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\look_and_feel\skin.h">
-      <Filter>Vial\src\interface\look_and_feel</Filter>
+      <Filter>Vitality+Minus\src\interface\look_and_feel</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\look_and_feel\synth_strings.h">
-      <Filter>Vial\src\interface\look_and_feel</Filter>
+      <Filter>Vitality+Minus\src\interface\look_and_feel</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\look_and_feel\text_look_and_feel.h">
-      <Filter>Vial\src\interface\look_and_feel</Filter>
+      <Filter>Vitality+Minus\src\interface\look_and_feel</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\wavetable\editors\bar_editor.h">
-      <Filter>Vial\src\interface\wavetable\editors</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\editors</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\wavetable\editors\phase_editor.h">
-      <Filter>Vial\src\interface\wavetable\editors</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\editors</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\wavetable\editors\wave_source_editor.h">
-      <Filter>Vial\src\interface\wavetable\editors</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\editors</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\wavetable\editors\wave_window_editor.h">
-      <Filter>Vial\src\interface\wavetable\editors</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\editors</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\wavetable\overlays\file_source_overlay.h">
-      <Filter>Vial\src\interface\wavetable\overlays</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\overlays</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\wavetable\overlays\frequency_filter_overlay.h">
-      <Filter>Vial\src\interface\wavetable\overlays</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\overlays</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\wavetable\overlays\phase_modifier_overlay.h">
-      <Filter>Vial\src\interface\wavetable\overlays</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\overlays</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\wavetable\overlays\slew_limiter_overlay.h">
-      <Filter>Vial\src\interface\wavetable\overlays</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\overlays</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\wavetable\overlays\wave_fold_overlay.h">
-      <Filter>Vial\src\interface\wavetable\overlays</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\overlays</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\wavetable\overlays\wave_line_source_overlay.h">
-      <Filter>Vial\src\interface\wavetable\overlays</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\overlays</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\wavetable\overlays\wave_source_overlay.h">
-      <Filter>Vial\src\interface\wavetable\overlays</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\overlays</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\wavetable\overlays\wavetable_component_overlay.h">
-      <Filter>Vial\src\interface\wavetable\overlays</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\overlays</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\wavetable\overlays\wave_warp_overlay.h">
-      <Filter>Vial\src\interface\wavetable\overlays</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\overlays</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\wavetable\overlays\wave_window_overlay.h">
-      <Filter>Vial\src\interface\wavetable\overlays</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable\overlays</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\wavetable\wavetable_component_list.h">
-      <Filter>Vial\src\interface\wavetable</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\wavetable\wavetable_organizer.h">
-      <Filter>Vial\src\interface\wavetable</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\wavetable\wavetable_overlay_factory.h">
-      <Filter>Vial\src\interface\wavetable</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\wavetable\wavetable_playhead.h">
-      <Filter>Vial\src\interface\wavetable</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\wavetable\wavetable_playhead_info.h">
-      <Filter>Vial\src\interface\wavetable</Filter>
+      <Filter>Vitality+Minus\src\interface\wavetable</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\plugin\synth_editor.h">
-      <Filter>Vial\src\plugin</Filter>
+      <Filter>Vitality+Minus\src\plugin</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\plugin\synth_plugin.h">
-      <Filter>Vial\src\plugin</Filter>
+      <Filter>Vitality+Minus\src\plugin</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\plugin\value_bridge.h">
-      <Filter>Vial\src\plugin</Filter>
+      <Filter>Vitality+Minus\src\plugin</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\effects\compressor.h">
-      <Filter>Vial\src\synthesis\effects</Filter>
+      <Filter>Vitality+Minus\src\synthesis\effects</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\effects\delay.h">
-      <Filter>Vial\src\synthesis\effects</Filter>
+      <Filter>Vitality+Minus\src\synthesis\effects</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\effects\distortion.h">
-      <Filter>Vial\src\synthesis\effects</Filter>
+      <Filter>Vitality+Minus\src\synthesis\effects</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\effects\phaser.h">
-      <Filter>Vial\src\synthesis\effects</Filter>
+      <Filter>Vitality+Minus\src\synthesis\effects</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\effects\reverb.h">
-      <Filter>Vial\src\synthesis\effects</Filter>
+      <Filter>Vitality+Minus\src\synthesis\effects</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\filters\comb_filter.h">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\filters\dc_filter.h">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\filters\decimator.h">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\filters\digital_svf.h">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\filters\diode_filter.h">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\filters\dirty_filter.h">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\filters\fir_halfband_decimator.h">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\filters\formant_filter.h">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\filters\formant_manager.h">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\filters\iir_halfband_decimator.h">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\filters\ladder_filter.h">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\filters\linkwitz_riley_filter.h">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\filters\one_pole_filter.h">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\filters\phaser_filter.h">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\filters\sallen_key_filter.h">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\filters\synth_filter.h">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\filters\upsampler.h">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\filters\vocal_tract.h">
-      <Filter>Vial\src\synthesis\filters</Filter>
+      <Filter>Vitality+Minus\src\synthesis\filters</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\framework\circular_queue.h">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\framework\common.h">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\framework\feedback.h">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\framework\futils.h">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\framework\matrix.h">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\framework\note_handler.h">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\framework\operators.h">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\framework\poly_utils.h">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\framework\poly_values.h">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\framework\processor.h">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\framework\processor_router.h">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\framework\synth_module.h">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\framework\utils.h">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\framework\value.h">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\framework\voice_handler.h">
-      <Filter>Vial\src\synthesis\framework</Filter>
+      <Filter>Vitality+Minus\src\synthesis\framework</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\lookups\lookup_table.h">
-      <Filter>Vial\src\synthesis\lookups</Filter>
+      <Filter>Vitality+Minus\src\synthesis\lookups</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\lookups\memory.h">
-      <Filter>Vial\src\synthesis\lookups</Filter>
+      <Filter>Vitality+Minus\src\synthesis\lookups</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\lookups\wave_frame.h">
-      <Filter>Vial\src\synthesis\lookups</Filter>
+      <Filter>Vitality+Minus\src\synthesis\lookups</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\lookups\wavetable.h">
-      <Filter>Vial\src\synthesis\lookups</Filter>
+      <Filter>Vitality+Minus\src\synthesis\lookups</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modulators\envelope.h">
-      <Filter>Vial\src\synthesis\modulators</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modulators</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modulators\line_map.h">
-      <Filter>Vial\src\synthesis\modulators</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modulators</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modulators\random_lfo.h">
-      <Filter>Vial\src\synthesis\modulators</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modulators</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modulators\synth_lfo.h">
-      <Filter>Vial\src\synthesis\modulators</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modulators</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modulators\trigger_random.h">
-      <Filter>Vial\src\synthesis\modulators</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modulators</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modules\chorus_module.h">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modules\comb_module.h">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modules\compressor_module.h">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modules\delay_module.h">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modules\distortion_module.h">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modules\envelope_module.h">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modules\equalizer_module.h">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modules\filter_module.h">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modules\filters_module.h">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modules\flanger_module.h">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modules\formant_module.h">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modules\lfo_module.h">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modules\modulation_connection_processor.h">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modules\oscillator_module.h">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modules\phaser_module.h">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modules\producers_module.h">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modules\random_lfo_module.h">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modules\reorderable_effect_chain.h">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modules\reverb_module.h">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modules\sample_module.h">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\modules\synth_voice_handler.h">
-      <Filter>Vial\src\synthesis\modules</Filter>
+      <Filter>Vitality+Minus\src\synthesis\modules</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\producers\sample_source.h">
-      <Filter>Vial\src\synthesis\producers</Filter>
+      <Filter>Vitality+Minus\src\synthesis\producers</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\producers\spectral_morph.h">
-      <Filter>Vial\src\synthesis\producers</Filter>
+      <Filter>Vitality+Minus\src\synthesis\producers</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\producers\synth_oscillator.h">
-      <Filter>Vial\src\synthesis\producers</Filter>
+      <Filter>Vitality+Minus\src\synthesis\producers</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\synth_engine\sound_engine.h">
-      <Filter>Vial\src\synthesis\synth_engine</Filter>
+      <Filter>Vitality+Minus\src\synthesis\synth_engine</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\utilities\legato_filter.h">
-      <Filter>Vial\src\synthesis\utilities</Filter>
+      <Filter>Vitality+Minus\src\synthesis\utilities</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\utilities\peak_meter.h">
-      <Filter>Vial\src\synthesis\utilities</Filter>
+      <Filter>Vitality+Minus\src\synthesis\utilities</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\utilities\portamento_slope.h">
-      <Filter>Vial\src\synthesis\utilities</Filter>
+      <Filter>Vitality+Minus\src\synthesis\utilities</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\utilities\smooth_value.h">
-      <Filter>Vial\src\synthesis\utilities</Filter>
+      <Filter>Vitality+Minus\src\synthesis\utilities</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\synthesis\utilities\value_switch.h">
-      <Filter>Vial\src\synthesis\utilities</Filter>
+      <Filter>Vitality+Minus\src\synthesis\utilities</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\third_party\concurrentqueue\concurrentqueue.h">
-      <Filter>Vial\third_party\concurrentqueue</Filter>
+      <Filter>Vitality+Minus\third_party\concurrentqueue</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\third_party\json\json.h">
-      <Filter>Vial\third_party\json</Filter>
+      <Filter>Vitality+Minus\third_party\json</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\third_party\JUCE\modules\juce_audio_basics\audio_play_head\juce_AudioPlayHead.h">
       <Filter>JUCE Modules\juce_audio_basics\audio_play_head</Filter>
@@ -6453,85 +6332,85 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\tunings\5 Limit.scl">
-      <Filter>Vial\tunings</Filter>
+      <Filter>Vitality+Minus\tunings</Filter>
     </None>
     <None Include="..\..\..\tunings\7 Limit.scl">
-      <Filter>Vial\tunings</Filter>
+      <Filter>Vitality+Minus\tunings</Filter>
     </None>
     <None Include="..\..\..\tunings\Pythagorean.scl">
-      <Filter>Vial\tunings</Filter>
+      <Filter>Vitality+Minus\tunings</Filter>
     </None>
     <None Include="..\..\..\default.vitalskin">
-      <Filter>Vial\skins</Filter>
+      <Filter>Vitality+Minus\skins</Filter>
     </None>
     <None Include="..\..\..\fonts\DroidSansMono.ttf">
-      <Filter>Vial\fonts</Filter>
+      <Filter>Vitality+Minus\fonts</Filter>
     </None>
     <None Include="..\..\..\fonts\Lato-Light.ttf">
-      <Filter>Vial\fonts</Filter>
+      <Filter>Vitality+Minus\fonts</Filter>
     </None>
     <None Include="..\..\..\fonts\Lato-Regular.ttf">
-      <Filter>Vial\fonts</Filter>
+      <Filter>Vitality+Minus\fonts</Filter>
     </None>
     <None Include="..\..\..\fonts\Montserrat-Light.otf">
-      <Filter>Vial\fonts</Filter>
+      <Filter>Vitality+Minus\fonts</Filter>
     </None>
     <None Include="..\..\..\fonts\Montserrat-Regular.ttf">
-      <Filter>Vial\fonts</Filter>
+      <Filter>Vitality+Minus\fonts</Filter>
     </None>
     <None Include="..\..\..\icons\chorus.svg">
-      <Filter>Vial\icons</Filter>
+      <Filter>Vitality+Minus\icons</Filter>
     </None>
     <None Include="..\..\..\icons\cog.svg">
-      <Filter>Vial\icons</Filter>
+      <Filter>Vitality+Minus\icons</Filter>
     </None>
     <None Include="..\..\..\icons\compressor.svg">
-      <Filter>Vial\icons</Filter>
+      <Filter>Vitality+Minus\icons</Filter>
     </None>
     <None Include="..\..\..\icons\delay.svg">
-      <Filter>Vial\icons</Filter>
+      <Filter>Vitality+Minus\icons</Filter>
     </None>
     <None Include="..\..\..\icons\distortion.svg">
-      <Filter>Vial\icons</Filter>
+      <Filter>Vitality+Minus\icons</Filter>
     </None>
     <None Include="..\..\..\icons\drag_drop_arrows.svg">
-      <Filter>Vial\icons</Filter>
+      <Filter>Vitality+Minus\icons</Filter>
     </None>
     <None Include="..\..\..\icons\effects_filter.svg">
-      <Filter>Vial\icons</Filter>
+      <Filter>Vitality+Minus\icons</Filter>
     </None>
     <None Include="..\..\..\icons\equalizer.svg">
-      <Filter>Vial\icons</Filter>
+      <Filter>Vitality+Minus\icons</Filter>
     </None>
     <None Include="..\..\..\icons\flanger.svg">
-      <Filter>Vial\icons</Filter>
+      <Filter>Vitality+Minus\icons</Filter>
     </None>
     <None Include="..\..\..\icons\folder.svg">
-      <Filter>Vial\icons</Filter>
+      <Filter>Vitality+Minus\icons</Filter>
     </None>
     <None Include="..\..\..\icons\link.svg">
-      <Filter>Vial\icons</Filter>
+      <Filter>Vitality+Minus\icons</Filter>
     </None>
     <None Include="..\..\..\icons\phaser.svg">
-      <Filter>Vial\icons</Filter>
+      <Filter>Vitality+Minus\icons</Filter>
     </None>
     <None Include="..\..\..\icons\reverb.svg">
-      <Filter>Vial\icons</Filter>
+      <Filter>Vitality+Minus\icons</Filter>
     </None>
     <None Include="..\..\..\icons\shuffle.svg">
-      <Filter>Vial\icons</Filter>
+      <Filter>Vitality+Minus\icons</Filter>
     </None>
     <None Include="..\..\..\icons\vital_ring.svg">
-      <Filter>Vial\icons</Filter>
+      <Filter>Vitality+Minus\icons</Filter>
     </None>
     <None Include="..\..\..\icons\vital_v.svg">
-      <Filter>Vial\icons</Filter>
+      <Filter>Vitality+Minus\icons</Filter>
     </None>
     <None Include="..\..\..\icons\vital_word.svg">
-      <Filter>Vial\icons</Filter>
+      <Filter>Vitality+Minus\icons</Filter>
     </None>
     <None Include="..\..\..\icons\vital_word_ring.svg">
-      <Filter>Vial\icons</Filter>
+      <Filter>Vitality+Minus\icons</Filter>
     </None>
     <None Include="..\..\..\third_party\JUCE\modules\juce_audio_devices\native\oboe\CMakeLists.txt">
       <Filter>JUCE Modules\juce_audio_devices\native\oboe</Filter>
