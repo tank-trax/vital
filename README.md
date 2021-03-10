@@ -19,11 +19,11 @@ git clone https://github.com/tank-trax/vital.git
 cd vital
 git checkout vitality+-1.0.6-win
 ```
-The build will look in `third_party\VST_SDK\` for ASIO and VST2 headers. Create the folders `third_party\VST_SDK\ASIO_SDK` and `third_party\VST_SDK\VST2_SDK` and place the requisite SDK in each folder.
+The build will look in the folder `third_party\VST_SDK\` for the ASIO and VST2 headers. Create the folders `third_party\VST_SDK\ASIO_SDK` and `third_party\VST_SDK\VST2_SDK` and then place the requisite SDK files and folders in each.
 
 Open the Solution Visual Studio 2017 and build the Release
 
-This will produce the Standalone and VST3 in `plugin\builds\vs17\x64\Release`
+This will produce the Standalone, VST2 and VST3 in `plugin\builds\vs17\x64\Release`
 
 Presets and local store will go in the `Documents\Vitality+Minus` folder
 
