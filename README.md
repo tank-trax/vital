@@ -23,7 +23,7 @@ git checkout vitality+minus-1.0.6
 make
 ```
 
-This will produce the Standalone and VST3 in `plugin/builds/linux_vst/build/` and the LV2 in `plugin/builds/linux_lv2/` 
+This will produce the Standalone and VST3 in `plugin/builds/linux_vst/` and the LV2 in `plugin/builds/linux_lv2/` 
 
 Presets and local store will go in the `~/.local/share/vitality+minus/` folder
 
