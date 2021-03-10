@@ -21,7 +21,7 @@ git checkout vitality+-1.0.6-win
 ```
 The build will look in the folder `third_party\VST_SDK\` for the ASIO and VST2 headers. Create the folders `third_party\VST_SDK\ASIO_SDK` and `third_party\VST_SDK\VST2_SDK` and then place the requisite SDK files and folders in each.
 
-Open the Solution Visual Studio 2017 and build the Release
+Open the `Vitality+Minus.sln` in Visual Studio 2017, select Release and Build.
 
 This will produce the Standalone, VST2 and VST3 in `plugin\builds\vs17\x64\Release`
 
