@@ -2,7 +2,7 @@
 
 <JUCERPROJECT id="C9WuMW" name="Vitality+Minus" projectType="audioplug" version="1.0.6"
               bundleIdentifier="audio.vitality+minus.synth" includeBinaryInAppConfig="1"
-              buildVST="1" buildVST3="1" buildAU="0" buildRTAS="0" buildAAX="0"
+              buildVST="0" buildVST3="1" buildAU="0" buildRTAS="0" buildAAX="0"
               pluginName="Vitality+Minus" pluginDesc="" pluginManufacturer="Vitality+Minus"
               pluginManufacturerCode="Open" pluginCode="Vita" pluginChannelConfigs="{0, 2}"
               pluginIsSynth="1" pluginWantsMidiIn="1" pluginProducesMidiOut="0"
@@ -12,7 +12,7 @@
               companyWebsite="vitality+minus.audio" pluginIsMidiEffectPlugin="0"
               buildAUv3="0" displaySplashScreen="1" reportAppUsage="0" splashScreenColour="Dark"
               buildStandalone="1" enableIAA="0" cppLanguageStandard="14" companyCopyright="Vitality+Minus"
-              pluginFormats="buildStandalone,buildVST,buildVST3" pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn,pluginEditorRequiresKeys"
+              pluginFormats="buildStandalone,buildVST3" pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn,pluginEditorRequiresKeys"
               jucerFormatVersion="1" projectLineFeed="&#10;">
   <MAINGROUP id="OwcEM5" name="Vitality+Minus">
     <GROUP id="{AF7411EF-B0D3-B422-B9E8-D2F76B1C5398}" name="tunings">
@@ -860,7 +860,7 @@
     <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
   </MODULES>
   <JUCEOPTIONS JUCE_QUICKTIME="disabled" JUCE_WEB_BROWSER="0" JUCE_USE_CURL="1"
-               JUCE_JACK="1" JUCE_ASIO="1"/>
+               JUCE_VST3_CAN_REPLACE_VST2="0"/>
   <LIVE_SETTINGS>
     <OSX/>
     <WINDOWS/>
